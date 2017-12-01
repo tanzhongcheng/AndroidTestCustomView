@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.tan.androidcustomview.widget.CustomTitleView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleText="3712"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        app:titleTextColor="#ff0000"
+        app:titleTextSize="25dp"
+        />
+    <com.tan.androidcustomview.widget.RoundProgressBar
+        android:id="@+id/roundProgressBar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/title_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:roundColor="#D1D1D1"
+        app:roundProgressColor="@android:color/black"
+        app:textColor="#9A32CD"
+        android:contextClickable="true"
+        app:roundWidth="10dp"
+        app:textSize="18dp"
+        />
+</RelativeLayout>
