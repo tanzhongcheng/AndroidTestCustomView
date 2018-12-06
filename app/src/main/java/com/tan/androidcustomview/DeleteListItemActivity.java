@@ -12,6 +12,7 @@ import java.util.List;
 public class DeleteListItemActivity extends AppCompatActivity {
     private MyListView myListView;
     private MyAdapter adapter;
+    private static final string HELLO = "hello";
     private List<String> contentList = new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
