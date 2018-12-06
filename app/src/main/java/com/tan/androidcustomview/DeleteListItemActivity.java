@@ -13,7 +13,7 @@ public class DeleteListItemActivity extends AppCompatActivity {
     private MyListView myListView;
     private MyAdapter adapter;
     private static final string HELLO = "hello";
-    private static final string GOOD = "good";
+    private static final string BAD = "bad";
     private List<String> contentList = new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
