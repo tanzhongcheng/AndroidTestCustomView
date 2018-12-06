@@ -68,5 +68,13 @@ public class DeleteListItemActivity extends AppCompatActivity {
         contentList.add("Content Item 14");
         contentList.add("Content Item 15");
         contentList.add("Content Item 16");
+        contentList.add("Content Item 13");
+        contentList.add("Content Item 14");
+        contentList.add("Content Item 15");
+        contentList.add("Content Item 16");
+        contentList.add("Content Item 13");
+        contentList.add("Content Item 14");
+        contentList.add("Content Item 15");
+        contentList.add("Content Item 16");
     }
 }
